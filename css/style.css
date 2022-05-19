@@ -436,7 +436,7 @@ body {
 /* Экран 768px */
 @media (min-width: 760px) {
 
-   
+
 
     /* Хэдер */
     .header__section-left {
@@ -588,6 +588,10 @@ body {
 
     .btn-side-menu:active {
         padding: 0 8px;
+    }
+
+    .body__side-menu::-webkit-scrollbar {
+        display: none;
     }
 
     /* Область с контентом */
